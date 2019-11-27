@@ -20,21 +20,10 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/oxygen/proprietary/vendor/bin/mm-qcamera-app:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-app \
     vendor/xiaomi/oxygen/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
-    vendor/xiaomi/oxygen/proprietary/etc/age_gender_bg:$(TARGET_COPY_OUT_SYSTEM)/etc/age_gender_bg \
     vendor/xiaomi/oxygen/proprietary/vendor/etc/android_model_facea.dat:$(TARGET_COPY_OUT_VENDOR)/etc/android_model_facea.dat \
     vendor/xiaomi/oxygen/proprietary/vendor/etc/android_model_faceg.dat:$(TARGET_COPY_OUT_VENDOR)/etc/android_model_faceg.dat \
-    vendor/xiaomi/oxygen/proprietary/etc/crown_156_128.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/crown_156_128.bin \
-    vendor/xiaomi/oxygen/proprietary/etc/face_goodly_208_180:$(TARGET_COPY_OUT_SYSTEM)/etc/face_goodly_208_180 \
-    vendor/xiaomi/oxygen/proprietary/etc/face_ravishing_238_224:$(TARGET_COPY_OUT_SYSTEM)/etc/face_ravishing_238_224 \
-    vendor/xiaomi/oxygen/proprietary/etc/face_splendid_274_200:$(TARGET_COPY_OUT_SYSTEM)/etc/face_splendid_274_200 \
-    vendor/xiaomi/oxygen/proprietary/etc/people_gender.dat:$(TARGET_COPY_OUT_SYSTEM)/etc/people_gender.dat \
     vendor/xiaomi/oxygen/proprietary/vendor/etc/sdm_ys_32p_120_21_5_perturb50.bin:$(TARGET_COPY_OUT_VENDOR)/etc/sdm_ys_32p_120_21_5_perturb50.bin \
-    vendor/xiaomi/oxygen/proprietary/etc/watermark_font_2300_3199.dat:$(TARGET_COPY_OUT_SYSTEM)/etc/watermark_font_2300_3199.dat \
     vendor/xiaomi/oxygen/proprietary/vendor/lib/hw/camera.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.msm8953.so \
-    vendor/xiaomi/oxygen/proprietary/lib/libMiCameraHal.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libMiCameraHal.so \
-    vendor/xiaomi/oxygen/proprietary/vendor/lib/libllvd_smore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvd_smore.so \
-    vendor/xiaomi/oxygen/proprietary/vendor/lib/libllvd_sw_tnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvd_sw_tnr.so \
-    vendor/xiaomi/oxygen/proprietary/vendor/lib/libmmcamera_sw_tnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sw_tnr.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib/libmm-qcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-qcamera.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib/libmmcamera_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_interface.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib/libmmjpeg_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg_interface.so \
@@ -55,6 +44,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/oxygen/proprietary/vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
     vendor/xiaomi/oxygen/proprietary/vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
     vendor/xiaomi/oxygen/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
+    vendor/xiaomi/oxygen/proprietary/vendor/etc/age_gender_bg:$(TARGET_COPY_OUT_VENDOR)/etc/age_gender_bg \
     vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_config.xml \
     vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/csidtg_camera.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/csidtg_camera.xml \
     vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/csidtg_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/csidtg_chromatix.xml \
@@ -97,11 +87,18 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/s5k3m2xm_chromatix_bear.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3m2xm_chromatix_bear.xml \
     vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/s5k3m2xx_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3m2xx_chromatix.xml \
     vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/s5k3p3sm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3p3sm_chromatix.xml \
+    vendor/xiaomi/oxygen/proprietary/vendor/etc/crown_156_128.bin:$(TARGET_COPY_OUT_VENDOR)/etc/crown_156_128.bin \
+    vendor/xiaomi/oxygen/proprietary/vendor/etc/face_goodly_208_180:$(TARGET_COPY_OUT_VENDOR)/etc/face_goodly_208_180 \
+    vendor/xiaomi/oxygen/proprietary/vendor/etc/face_ravishing_238_224:$(TARGET_COPY_OUT_VENDOR)/etc/face_ravishing_238_224 \
+    vendor/xiaomi/oxygen/proprietary/vendor/etc/face_splendid_274_200:$(TARGET_COPY_OUT_VENDOR)/etc/face_splendid_274_200 \
+    vendor/xiaomi/oxygen/proprietary/vendor/etc/people_gender.dat:$(TARGET_COPY_OUT_VENDOR)/etc/people_gender.dat \
+    vendor/xiaomi/oxygen/proprietary/vendor/etc/watermark_font_2300_3199.dat:$(TARGET_COPY_OUT_VENDOR)/etc/watermark_font_2300_3199.dat \
     vendor/xiaomi/oxygen/proprietary/lib/hw/fingerprint.fpc.msm8953.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/fingerprint.fpc.msm8953.so \
     vendor/xiaomi/oxygen/proprietary/lib/hw/fingerprint.goodix.msm8953.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/fingerprint.goodix.msm8953.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib/libChamomilePA.so:$(TARGET_COPY_OUT_VENDOR)/lib/libChamomilePA.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib/libFaceGrade.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFaceGrade.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib/libFaceProc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFaceProc.so \
+    vendor/xiaomi/oxygen/proprietary/vendor/lib/libMiCameraHal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMiCameraHal.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib/libRecoFace.so:$(TARGET_COPY_OUT_VENDOR)/lib/libRecoFace.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib/lib_fpc_tac_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_fpc_tac_shared.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib/lib_lowlight.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_lowlight.so \
