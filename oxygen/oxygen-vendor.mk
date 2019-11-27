@@ -45,6 +45,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/oxygen/proprietary/vendor/etc/qdcm_calib_data_nt35596_tianma_fhd_video_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_nt35596_tianma_fhd_video_mode_dsi_panel.xml \
     vendor/xiaomi/oxygen/proprietary/vendor/etc/qdcm_calib_data_otm1911_fhd_video_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_otm1911_fhd_video_mode_dsi_panel.xml \
     vendor/xiaomi/oxygen/proprietary/vendor/etc/qdcm_calib_data_r63350_ebbg_fhd_video_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_r63350_ebbg_fhd_video_mode_dsi_panel.xml \
+    vendor/xiaomi/oxygen/proprietary/vendor/lib/libllvd_smore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvd_smore.so \
+    vendor/xiaomi/oxygen/proprietary/vendor/lib/libllvd_sw_tnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvd_sw_tnr.so \
+    vendor/xiaomi/oxygen/proprietary/vendor/lib/libmmcamera_sw_tnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sw_tnr.so \
+    vendor/xiaomi/oxygen/proprietary/vendor/lib/libmmcamera_llvd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_llvd.
     vendor/xiaomi/oxygen/proprietary/vendor/bin/goodixfp:$(TARGET_COPY_OUT_VENDOR)/bin/goodixfp \
     vendor/xiaomi/oxygen/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service.xiaomi_oxygen:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service.xiaomi_oxygen \
     vendor/xiaomi/oxygen/proprietary/vendor/bin/init.goodix.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.goodix.sh \
