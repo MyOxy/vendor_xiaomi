@@ -18,40 +18,32 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/oxygen
 
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_config.xml \
-    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/csidtg_camera.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/csidtg_camera.xml \
-    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/csidtg_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/csidtg_chromatix.xml \
-    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/imx258_bear_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx258_bear_chromatix.xml \
-    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/imx258_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx258_chromatix.xml \
-    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/imx258_mono_bear_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx258_mono_bear_chromatix.xml \
-    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/imx258_mono_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx258_mono_chromatix.xml \
-    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/imx258_ofilm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx258_ofilm_chromatix.xml \
-    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/imx258_qtech_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx258_qtech_chromatix.xml \
-    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/imx258_sunny_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx258_sunny_chromatix.xml \
-    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/ov13855_qtech_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov13855_qtech_chromatix.xml \
-    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/oxygen_imx386_sunny_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/oxygen_imx386_sunny_chromatix.xml \
-    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/oxygen_ov12a_ofilm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/oxygen_ov12a_ofilm_chromatix.xml \
-    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/oxygen_ov12a_sunny_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/oxygen_ov12a_sunny_chromatix.xml \
-    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/oxygen_s5k5e8_ofilm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/oxygen_s5k5e8_ofilm_chromatix.xml \
-    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/oxygen_s5k5e8_qtech_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/oxygen_s5k5e8_qtech_chromatix.xml \
-    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/s5k3l8_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3l8_chromatix.xml \
-    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/s5k3l8_f3l8yam_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3l8_f3l8yam_chromatix.xml \
-    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/s5k3l8_mono_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3l8_mono_chromatix.xml \
-    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/s5k3l8_ofilm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3l8_ofilm_chromatix.xml \
-    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/s5k3l8_qtech_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3l8_qtech_chromatix.xml \
-    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/s5k3l8_sunny_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3l8_sunny_chromatix.xml \
-    vendor/xiaomi/oxygen/proprietary/vendor/etc/qdcm_calib_data_ili9885_boe_fhd_video_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_ili9885_boe_fhd_video_mode_dsi_panel.xml \
-    vendor/xiaomi/oxygen/proprietary/vendor/etc/qdcm_calib_data_nt35532_fhd_video_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_nt35532_fhd_video_mode_dsi_panel.xml \
-    vendor/xiaomi/oxygen/proprietary/vendor/etc/qdcm_calib_data_nt35596_tianma_fhd_video_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_nt35596_tianma_fhd_video_mode_dsi_panel.xml \
-    vendor/xiaomi/oxygen/proprietary/vendor/etc/qdcm_calib_data_otm1911_fhd_video_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_otm1911_fhd_video_mode_dsi_panel.xml \
-    vendor/xiaomi/oxygen/proprietary/vendor/etc/qdcm_calib_data_r63350_ebbg_fhd_video_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_r63350_ebbg_fhd_video_mode_dsi_panel.xml \
-    vendor/xiaomi/oxygen/proprietary/vendor/lib/libllvd_smore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvd_smore.so \
-    vendor/xiaomi/oxygen/proprietary/vendor/lib/libllvd_sw_tnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvd_sw_tnr.so \
-    vendor/xiaomi/oxygen/proprietary/vendor/lib/libmmcamera_sw_tnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sw_tnr.so \
-    vendor/xiaomi/oxygen/proprietary/vendor/bin/goodixfp:$(TARGET_COPY_OUT_VENDOR)/bin/goodixfp \
-    vendor/xiaomi/oxygen/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service.xiaomi_oxygen:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service.xiaomi_oxygen \
-    vendor/xiaomi/oxygen/proprietary/vendor/bin/init.goodix.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.goodix.sh \
+    vendor/xiaomi/oxygen/proprietary/vendor/bin/mm-qcamera-app:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-app \
     vendor/xiaomi/oxygen/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
+    vendor/xiaomi/oxygen/proprietary/etc/age_gender_bg:$(TARGET_COPY_OUT_SYSTEM)/etc/age_gender_bg \
+    vendor/xiaomi/oxygen/proprietary/vendor/etc/android_model_facea.dat:$(TARGET_COPY_OUT_VENDOR)/etc/android_model_facea.dat \
+    vendor/xiaomi/oxygen/proprietary/vendor/etc/android_model_faceg.dat:$(TARGET_COPY_OUT_VENDOR)/etc/android_model_faceg.dat \
+    vendor/xiaomi/oxygen/proprietary/etc/crown_156_128.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/crown_156_128.bin \
+    vendor/xiaomi/oxygen/proprietary/etc/face_goodly_208_180:$(TARGET_COPY_OUT_SYSTEM)/etc/face_goodly_208_180 \
+    vendor/xiaomi/oxygen/proprietary/etc/face_ravishing_238_224:$(TARGET_COPY_OUT_SYSTEM)/etc/face_ravishing_238_224 \
+    vendor/xiaomi/oxygen/proprietary/etc/face_splendid_274_200:$(TARGET_COPY_OUT_SYSTEM)/etc/face_splendid_274_200 \
+    vendor/xiaomi/oxygen/proprietary/etc/people_gender.dat:$(TARGET_COPY_OUT_SYSTEM)/etc/people_gender.dat \
+    vendor/xiaomi/oxygen/proprietary/vendor/etc/sdm_ys_32p_120_21_5_perturb50.bin:$(TARGET_COPY_OUT_VENDOR)/etc/sdm_ys_32p_120_21_5_perturb50.bin \
+    vendor/xiaomi/oxygen/proprietary/etc/watermark_font_2300_3199.dat:$(TARGET_COPY_OUT_SYSTEM)/etc/watermark_font_2300_3199.dat \
+    vendor/xiaomi/oxygen/proprietary/vendor/lib/hw/camera.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.msm8953.so \
+    vendor/xiaomi/oxygen/proprietary/lib/libMiCameraHal.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libMiCameraHal.so \
+    vendor/xiaomi/oxygen/proprietary/vendor/lib/libmm-qcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-qcamera.so \
+    vendor/xiaomi/oxygen/proprietary/vendor/lib/libmmcamera_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_interface.so \
+    vendor/xiaomi/oxygen/proprietary/vendor/lib/libmmjpeg_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg_interface.so \
+    vendor/xiaomi/oxygen/proprietary/vendor/lib/libmorpho_groupshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmorpho_groupshot.so \
+    vendor/xiaomi/oxygen/proprietary/vendor/lib/libmorpho_memory_allocator.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmorpho_memory_allocator.so \
+    vendor/xiaomi/oxygen/proprietary/vendor/lib/libmorpho_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmorpho_panorama.so \
+    vendor/xiaomi/oxygen/proprietary/vendor/lib/libqomx_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_core.so \
+    vendor/xiaomi/oxygen/proprietary/vendor/lib/soundfx/libdirac.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libdirac.so \
+    vendor/xiaomi/oxygen/proprietary/vendor/lib64/libmorpho_groupshot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmorpho_groupshot.so \
+    vendor/xiaomi/oxygen/proprietary/vendor/lib64/libmorpho_memory_allocator.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmorpho_memory_allocator.so \
+    vendor/xiaomi/oxygen/proprietary/vendor/lib64/libmorpho_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmorpho_panorama.so \
+    vendor/xiaomi/oxygen/proprietary/vendor/bin/goodixfp:$(TARGET_COPY_OUT_VENDOR)/bin/goodixfp \
     vendor/xiaomi/oxygen/proprietary/vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb \
     vendor/xiaomi/oxygen/proprietary/vendor/etc/acdbdata/QRD/QRD_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_General_cal.acdb \
     vendor/xiaomi/oxygen/proprietary/vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Global_cal.acdb \
@@ -59,13 +51,55 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/oxygen/proprietary/vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb \
     vendor/xiaomi/oxygen/proprietary/vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
     vendor/xiaomi/oxygen/proprietary/vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
-    vendor/xiaomi/oxygen/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.xiaomi_oxygen.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service.xiaomi_oxygen.rc \
-    vendor/xiaomi/oxygen/proprietary/vendor/lib/hw/fingerprint.fpc.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.fpc.msm8953.so \
-    vendor/xiaomi/oxygen/proprietary/vendor/lib/hw/fingerprint.goodix.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.goodix.msm8953.so \
+    vendor/xiaomi/oxygen/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
+    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_config.xml \
+    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/csidtg_camera.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/csidtg_camera.xml \
+    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/csidtg_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/csidtg_chromatix.xml \
+    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/imx214_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx214_chromatix.xml \
+    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/imx230_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx230_chromatix.xml \
+    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/imx230_qc2002_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx230_qc2002_chromatix.xml \
+    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/imx230_qc2002_with_gyro_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx230_qc2002_with_gyro_chromatix.xml \
+    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/imx258_bear_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx258_bear_chromatix.xml \
+    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/imx258_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx258_chromatix.xml \
+    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/imx258_mono_bear_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx258_mono_bear_chromatix.xml \
+    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/imx258_mono_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx258_mono_chromatix.xml \
+    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/imx298_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx298_chromatix.xml \
+    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/imx298_gt24c64_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx298_gt24c64_chromatix.xml \
+    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/imx318_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx318_chromatix.xml \
+    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/imx362_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx362_chromatix.xml \
+    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/imx362_chromatix_bear.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx362_chromatix_bear.xml \
+    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/imx378_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx378_chromatix.xml \
+    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/ov13850_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov13850_chromatix.xml \
+    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/ov13850_q13v06k_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov13850_q13v06k_chromatix.xml \
+    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/ov2281_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov2281_chromatix.xml \
+    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/ov2680_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov2680_chromatix.xml \
+    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/ov4688_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov4688_chromatix.xml \
+    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/ov5670_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov5670_chromatix.xml \
+    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/ov5670_f5670bq_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov5670_f5670bq_chromatix.xml \
+    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/ov5695_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov5695_chromatix.xml \
+    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/ov7251_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov7251_chromatix.xml \
+    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/ov8858_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov8858_chromatix.xml \
+    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/ov8865_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov8865_chromatix.xml \
+    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/oxygen_imx386_sunny_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/oxygen_imx386_sunny_chromatix.xml \
+    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/oxygen_ov12a_ofilm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/oxygen_ov12a_ofilm_chromatix.xml \
+    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/oxygen_ov12a_sunny_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/oxygen_ov12a_sunny_chromatix.xml \
+    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/oxygen_s5k5e8_ofilm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/oxygen_s5k5e8_ofilm_chromatix.xml \
+    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/oxygen_s5k5e8_qtech_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/oxygen_s5k5e8_qtech_chromatix.xml \
+    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/s5k2l7_8953_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k2l7_8953_chromatix.xml \
+    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/s5k2l7_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k2l7_chromatix.xml \
+    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/s5k3l8_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3l8_chromatix.xml \
+    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/s5k3l8_f3l8yam_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3l8_f3l8yam_chromatix.xml \
+    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/s5k3l8_mono_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3l8_mono_chromatix.xml \
+    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/s5k3m2xm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3m2xm_chromatix.xml \
+    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/s5k3m2xm_chromatix_bear.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3m2xm_chromatix_bear.xml \
+    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/s5k3m2xx_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3m2xx_chromatix.xml \
+    vendor/xiaomi/oxygen/proprietary/vendor/etc/camera/s5k3p3sm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3p3sm_chromatix.xml \
+    vendor/xiaomi/oxygen/proprietary/lib/hw/fingerprint.fpc.msm8953.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/fingerprint.fpc.msm8953.so \
+    vendor/xiaomi/oxygen/proprietary/lib/hw/fingerprint.goodix.msm8953.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/fingerprint.goodix.msm8953.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib/libChamomilePA.so:$(TARGET_COPY_OUT_VENDOR)/lib/libChamomilePA.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib/libFaceGrade.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFaceGrade.so \
-    vendor/xiaomi/oxygen/proprietary/vendor/lib/libSonyIMX386PdafLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX386PdafLibrary.so \
-    vendor/xiaomi/oxygen/proprietary/vendor/lib/libXMFD_AgeGender.so:$(TARGET_COPY_OUT_VENDOR)/lib/libXMFD_AgeGender.so \
+    vendor/xiaomi/oxygen/proprietary/vendor/lib/libFaceProc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFaceProc.so \
+    vendor/xiaomi/oxygen/proprietary/vendor/lib/libRecoFace.so:$(TARGET_COPY_OUT_VENDOR)/lib/libRecoFace.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib/lib_fpc_tac_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_fpc_tac_shared.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib/lib_lowlight.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_lowlight.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib/libactuator_ad5816g.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ad5816g.so \
@@ -91,7 +125,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/oxygen/proprietary/vendor/lib/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_beautyshot.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib/libarcsoft_beautyshot_image_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_beautyshot_image_algorithm.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib/libarcsoft_beautyshot_video_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_beautyshot_video_algorithm.so \
-    vendor/xiaomi/oxygen/proprietary/vendor/lib/libbase64.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbase64.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib/libchromaflash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromaflash.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib/libchromatix_csidtg_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_csidtg_common.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib/libchromatix_csidtg_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_csidtg_cpp_preview.so \
@@ -1142,10 +1175,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/oxygen/proprietary/vendor/lib/libgf_ca.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgf_ca.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib/libgf_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgf_hal.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib/libgoodixfingerprintd_binder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgoodixfingerprintd_binder.so \
+    vendor/xiaomi/oxygen/proprietary/vendor/lib/libhwdaphal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwdaphal.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib/libjpegdhw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdhw.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib/libjpegdmahw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdmahw.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib/libjpegehw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegehw.so \
-    vendor/xiaomi/oxygen/proprietary/vendor/lib/libmibokeh_625.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmibokeh_625.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib/libmmcamera2_c2d_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_c2d_module.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib/libmmcamera2_cpp_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_cpp_module.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib/libmmcamera2_dcrf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_dcrf.so \
@@ -1293,6 +1326,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/oxygen/proprietary/vendor/lib/libmmjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib/libmmqjpeg_codec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmqjpeg_codec.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib/libmmqjpegdma.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmqjpegdma.so \
+    vendor/xiaomi/oxygen/proprietary/vendor/lib/libmorpho_easy_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmorpho_easy_hdr.so \
+    vendor/xiaomi/oxygen/proprietary/vendor/lib/libmorpho_group_portrait.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmorpho_group_portrait.so \
+    vendor/xiaomi/oxygen/proprietary/vendor/lib/libmorpho_hdr_checker.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmorpho_hdr_checker.so \
+    vendor/xiaomi/oxygen/proprietary/vendor/lib/libmorpho_panorama_gp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmorpho_panorama_gp.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmpbase.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib/libois_lc898122.so:$(TARGET_COPY_OUT_VENDOR)/lib/libois_lc898122.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib/liboptizoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboptizoom.so \
@@ -1305,15 +1342,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/oxygen/proprietary/vendor/lib/libts_detected_face_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libts_detected_face_hal.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib/libts_face_beautify_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libts_face_beautify_hal.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib/libubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libubifocus.so \
-    vendor/xiaomi/oxygen/proprietary/vendor/lib/mibokeh_625_opencl.bin:$(TARGET_COPY_OUT_VENDOR)/lib/mibokeh_625_opencl.bin \
-    vendor/xiaomi/oxygen/proprietary/vendor/lib64/hw/fingerprint.fpc.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.fpc.msm8953.so \
-    vendor/xiaomi/oxygen/proprietary/vendor/lib64/hw/fingerprint.goodix.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.goodix.msm8953.so \
-    vendor/xiaomi/oxygen/proprietary/vendor/lib64/libSonyIMX386PdafLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSonyIMX386PdafLibrary.so \
+    vendor/xiaomi/oxygen/proprietary/lib64/hw/fingerprint.fpc.msm8953.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/fingerprint.fpc.msm8953.so \
+    vendor/xiaomi/oxygen/proprietary/lib64/hw/fingerprint.goodix.msm8953.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/fingerprint.goodix.msm8953.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib64/lib_fpc_tac_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_fpc_tac_shared.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib64/libgf_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_algo.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib64/libgf_ca.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_ca.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib64/libgf_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_hal.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib64/libgoodixfingerprintd_binder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgoodixfingerprintd_binder.so \
+    vendor/xiaomi/oxygen/proprietary/vendor/lib64/libhwdaphal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwdaphal.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib64/libmmcamera2_frame_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_frame_algorithm.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib64/libmmcamera2_is.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_is.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib64/libmmcamera2_q3a_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_q3a_core.so \
@@ -1321,8 +1357,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/oxygen/proprietary/vendor/lib64/libmmcamera_cac3_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_cac3_lib.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib64/libmmcamera_dbg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_dbg.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib64/libmmcamera_tintless_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_tintless_algo.so \
-    vendor/xiaomi/oxygen/proprietary/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_tintless_bg_pca_algo.so
+    vendor/xiaomi/oxygen/proprietary/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_tintless_bg_pca_algo.so \
+    vendor/xiaomi/oxygen/proprietary/vendor/lib64/libmorpho_group_portrait.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmorpho_group_portrait.so \
+    vendor/xiaomi/oxygen/proprietary/vendor/lib64/libmorpho_panorama_gp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmorpho_panorama_gp.so
 
 PRODUCT_PACKAGES += \
-    libts_detected_face_hal \
-    libts_face_beautify_hal
+    qdcm_calib_data_tianma_r63350_1080p_video_mode_dsi_panel \
+    qdcm_calib_data_auo_r61322_1080p_video_mode_dsi_panel

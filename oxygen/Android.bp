@@ -19,3 +19,16 @@
 soong_namespace {
 }
 
+prebuilt_etc_xml {
+	name: "qdcm_calib_data_tianma_r63350_1080p_video_mode_dsi_panel",
+	owner: "xiaomi",
+	src: "proprietary/etc/qdcm_calib_data_tianma_r63350_1080p_video_mode_dsi_panel.xml",
+}
+
+prebuilt_etc_xml {
+	name: "qdcm_calib_data_auo_r61322_1080p_video_mode_dsi_panel",
+	owner: "xiaomi",
+	src: "proprietary/vendor/etc/qdcm_calib_data_auo_r61322_1080p_video_mode_dsi_panel.xml",
+	soc_specific: true,
+}
+
