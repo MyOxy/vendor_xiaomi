@@ -93,8 +93,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/oxygen/proprietary/vendor/etc/face_splendid_274_200:$(TARGET_COPY_OUT_VENDOR)/etc/face_splendid_274_200 \
     vendor/xiaomi/oxygen/proprietary/vendor/etc/people_gender.dat:$(TARGET_COPY_OUT_VENDOR)/etc/people_gender.dat \
     vendor/xiaomi/oxygen/proprietary/vendor/etc/watermark_font_2300_3199.dat:$(TARGET_COPY_OUT_VENDOR)/etc/watermark_font_2300_3199.dat \
-    vendor/xiaomi/oxygen/proprietary/lib/hw/fingerprint.fpc.msm8953.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/fingerprint.fpc.msm8953.so \
-    vendor/xiaomi/oxygen/proprietary/lib/hw/fingerprint.goodix.msm8953.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/fingerprint.goodix.msm8953.so \
+    vendor/xiaomi/oxygen/proprietary/vendor/lib/hw/fingerprint.fpc.msm8953.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/fingerprint.fpc.msm8953.so \
+    vendor/xiaomi/oxygen/proprietary/vendor/lib/hw/fingerprint.goodix.msm8953.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/fingerprint.goodix.msm8953.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib/libChamomilePA.so:$(TARGET_COPY_OUT_VENDOR)/lib/libChamomilePA.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib/libFaceGrade.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFaceGrade.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib/libFaceProc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFaceProc.so \
@@ -1316,7 +1316,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/oxygen/proprietary/vendor/lib/libmmcamera_sunny_q13v06k_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_q13v06k_eeprom.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib/libmmcamera_sunny_q5v41b_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_q5v41b_eeprom.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib/libmmcamera_sw2d_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sw2d_lib.so \
-    vendor/xiaomi/oxygen/proprietary/vendor/lib/libmmcamera_sw_tnr:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sw_tnr \
+    vendor/xiaomi/oxygen/proprietary/vendor/lib/libmmcamera_sw_tnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sw_tnr.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib/libmmcamera_thread_services.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_thread_services.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib/libmmcamera_tintless_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tintless_algo.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tintless_bg_pca_algo.so \
@@ -1345,8 +1345,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/oxygen/proprietary/vendor/lib/libts_detected_face_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libts_detected_face_hal.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib/libts_face_beautify_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libts_face_beautify_hal.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib/libubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libubifocus.so \
-    vendor/xiaomi/oxygen/proprietary/lib64/hw/fingerprint.fpc.msm8953.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/fingerprint.fpc.msm8953.so \
-    vendor/xiaomi/oxygen/proprietary/lib64/hw/fingerprint.goodix.msm8953.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/fingerprint.goodix.msm8953.so \
+    vendor/xiaomi/oxygen/proprietary/vendor/lib64/hw/fingerprint.fpc.msm8953.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/fingerprint.fpc.msm8953.so \
+    vendor/xiaomi/oxygen/proprietary/vendor/lib64/hw/fingerprint.goodix.msm8953.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/fingerprint.goodix.msm8953.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib64/lib_fpc_tac_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_fpc_tac_shared.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib64/libgf_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_algo.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib64/libgf_ca.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_ca.so \
